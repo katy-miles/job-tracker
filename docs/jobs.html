@@ -49,7 +49,7 @@ function render(id){
     if(c[0]===s.k)th.className="on"+(s.d?" desc":"");
     const go=()=>{s.d=(s.k===c[0])?!s.d:false;s.k=c[0];render(id)};
     th.onclick=go;th.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}};hr.append(th)});
-  t.append(el("thead")).append(hr);
+  const head=el("thead");head.append(hr);t.append(head);
   const tb=el("tbody");
   rows.forEach(j=>{const tr=el("tr");
     COLS.forEach(c=>{const td=el("td");
