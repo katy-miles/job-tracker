@@ -1,0 +1,36 @@
+{
+  "site_url": "",
+  "keep_days": 60,
+  "locations": [],
+  "exclude_title": ["senior", "sr", "director", "vp", "vice president", "principal", "head of", "chief", "president"],
+
+  "sources": {
+    "_note": "greenhouse/lever take company board tokens (the last part of boards.greenhouse.io/<token> or jobs.lever.co/<token>). Add employers you care about. Verify the rss URLs in a browser before relying on them.",
+    "rss": [
+      {"name": "We Work Remotely - Sales & Marketing", "url": "https://weworkremotely.com/categories/remote-sales-and-marketing-jobs.rss", "split_company": true},
+      {"name": "We Work Remotely - Management & Finance", "url": "https://weworkremotely.com/categories/remote-management-and-finance-jobs.rss", "split_company": true}
+    ],
+    "remotive": ["marketing", "sales", "insurance", "real estate", "supply chain", "analyst"],
+    "greenhouse": [],
+    "lever": []
+  },
+
+  "industries": {
+    "Real Estate & Finance": {
+      "keywords": ["real estate analyst", "commercial real estate", "acquisitions analyst", "development analyst", "asset management analyst", "investment analyst", "land acquisition", "leasing associate", "leasing consultant", "brokerage associate", "broker trainee", "investment sales", "assistant property manager", "property manager", "real estate agent", "realtor", "valuation analyst", "loan analyst", "closing analyst", "credit analyst", "corporate banking analyst", "property tax consultant", "construction estimator", "assistant construction manager", "financial analyst", "wealth management analyst"],
+      "intern_topics": ["real estate", "property", "acquisitions", "development", "asset management", "investment", "brokerage", "leasing", "valuation", "credit", "banking", "finance", "financial", "wealth", "construction"]
+    },
+    "Marketing & Sales": {
+      "keywords": ["marketing coordinator", "marketing analyst", "marketing specialist", "marketing associate", "marketing assistant", "digital marketing", "social media", "paid media", "media planner", "associate planner", "assistant account executive", "account executive", "account manager", "brand manager", "brand associate", "public relations", "communications coordinator", "event coordinator", "growth marketing", "sales development representative", "business development representative", "business development associate", "inside sales", "field sales", "outside sales", "territory manager", "sales associate", "sales trainee", "medical sales", "assistant buyer", "merchandise planner", "category analyst", "pricing analyst", "recruiter", "talent acquisition"],
+      "intern_topics": ["marketing", "sales", "brand", "digital", "social media", "advertising", "media", "public relations", "communications", "events", "merchandising", "buying", "recruiting", "talent", "business development"]
+    },
+    "Insurance & Risk": {
+      "keywords": ["underwriter", "underwriting", "associate broker", "broker analyst", "broker assistant", "producer", "account analyst", "account associate", "account coordinator", "client service associate", "claims adjuster", "claims trainee", "claims specialist", "claims representative", "claim specialist", "risk analyst", "risk consultant", "risk management", "actuarial analyst", "insurance agent", "compliance associate", "risk and compliance", "surety", "employee benefits"],
+      "intern_topics": ["insurance", "underwriting", "claims", "risk", "actuarial", "broker", "brokerage", "surety", "compliance", "benefits"]
+    },
+    "Management & Operations": {
+      "keywords": ["supply chain", "logistics analyst", "logistics coordinator", "inventory analyst", "procurement associate", "purchasing agent", "operations analyst", "management trainee", "area manager", "assistant project manager", "project manager", "project coordinator", "business analyst", "associate consultant", "human resources coordinator", "hr specialist", "production supervisor", "superintendent", "rotational program", "rotational analyst", "leadership development program", "professional development program", "early career"],
+      "intern_topics": ["supply chain", "logistics", "procurement", "purchasing", "operations", "management", "project", "consulting", "business analyst", "human resources", "hr", "strategy", "rotational"]
+    }
+  }
+}
