@@ -19,6 +19,11 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch jobs and build site
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
         run: python jobfeed.py docs
 
       - name: Save results to the repo
