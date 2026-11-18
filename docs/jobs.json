@@ -1,5 +1,33 @@
 [
  {
+  "id": "27c627d87dd34427",
+  "title": "Account Manager",
+  "company": "Magic, Inc",
+  "location": "Asia Only",
+  "link": "https://weworkremotely.com/remote-jobs/magic-inc-account-manager",
+  "industry": "Marketing & Sales",
+  "keyword": "account manager",
+  "intern": false,
+  "start": "",
+  "start_key": "",
+  "posted": "2026-11-18",
+  "first_seen": "2026-11-18T19:14:22.214444+00:00"
+ },
+ {
+  "id": "6db268320062de8b",
+  "title": "Sales Development Representative (SDR) - Cloud & AWS Migration",
+  "company": "division50",
+  "location": "USA Only",
+  "link": "https://weworkremotely.com/remote-jobs/division50-sales-development-representative-sdr-cloud-aws-migration",
+  "industry": "Marketing & Sales",
+  "keyword": "sales development representative",
+  "intern": false,
+  "start": "",
+  "start_key": "",
+  "posted": "2026-11-18",
+  "first_seen": "2026-11-18T19:14:22.214444+00:00"
+ },
+ {
   "id": "49737a9eaa9f5462",
   "title": "Account Executive, Life Sciences",
   "company": "PHIflow, LLC",
